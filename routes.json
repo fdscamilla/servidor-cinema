@@ -1,0 +1,36 @@
+{
+    "GET /Filmes": "GET/Filmes/get",
+    "POST /Filmes": "POST/Filmes/post",
+    "PUT /Filmes": "PUT/Filmes/put",
+    "DELETE /Filmes": "DELETE/Filmes/delete",
+
+    "GET /Precos": "GET/Precos/get",
+    "POST /Precos": "POST/Precos/post",
+    "PUT /Precos": "PUT/Precos/put",
+    "DELETE /Precos": "DELETE/Precos/delete",
+
+    "GET /Salas": "GET/Salas/get",
+    "POST /Salas": "POST/Salas/post",
+    "PUT /Salas": "PUT/Salas/put",
+    "DELETE /Salas": "DELETE/Salas/delete",
+
+    "GET /Combos": "GET/Combos/get",
+    "POST /Combos": "POST/Combos/post",
+    "PUT /Combos": "PUT/Combos/put",
+    "DELETE /Combos": "DELETE/Combos/delete",
+
+    "GET /Pipoca": "GET/Pipoca/get",
+    "POST /Pipoca": "POST/Pipoca/post",
+    "PUT /Pipoca": "PUT/Pipoca/put",
+    "DELETE /Pipoca": "DELETE/Pipoca/delete",
+
+    "GET /Bebidas": "GET/Bebidas/get",
+    "POST /Bebidas": "POST/Bebidas/post",
+    "PUT /Bebidas": "PUT/Bebidas/put",
+    "DELETE /Bebidas": "DELETE/Bebidas/delete",
+
+    "GET /Outros": "GET/Outros/get",
+    "POST /Outros": "POST/Outros/post",
+    "PUT /Outros": "PUT/Outros/put",
+    "DELETE /Outros": "DELETE/Outros/delete"
+}

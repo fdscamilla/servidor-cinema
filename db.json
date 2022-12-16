@@ -1,9 +1,351 @@
 {
-    "notas": [
+    "Filmes": [
         {
             "id": 1,
-            "titulo":"Estudar JS",
-            "status": true
+            "Título": "Filme 1",
+            "Sinopse": "Texto",
+            "Salas": "1, 2",
+            "ClassInd": "Livre"
+        }
+    ],
+
+    "Preços": [
+        {
+            "id" : 1,
+            "Dia" : "Seg-Qui",
+            "Horário" : "Até 17h",
+            "2D/3D": "2D",
+            "Inteira/meia": "Inteira",
+            "Valor": "R$ 20,00"
+        },
+
+        {
+            "id" : 2,
+            "Dia" : "Seg-Qui",
+            "Horário" : "Até 17h",
+            "2D/3D": "2D",
+            "Inteira/meia": "Meia",
+            "Valor":"R$ 10,00"
+        },
+
+        {
+            "id" : 3,
+            "Dia" : "Seg-Qui",
+            "Horário" : "Até 17h",
+            "2D/3D": "3D",
+            "Inteira/meia": "Inteira",
+            "Valor": "R$ 30,00"
+        },
+
+        {
+            "id" : 4,
+            "Dia" : "Seg-Qui",
+            "Horário" : "Até 17h",
+            "2D/3D": "3D",
+            "Inteira/meia": "Meia",
+            "Valor": "R$ 15,00"
+        },
+
+        {
+            "id" : 5,
+            "Dia" : "Seg-Qui",
+            "Horário" : "Após 17h",
+            "2D/3D": "2D",
+            "Inteira/meia": "Inteira",
+            "Valor": "R$ 25,00"
+        },
+
+        {
+            "id" : 6,
+            "Dia" : "Seg-Qui",
+            "Horário" : "Após 17h",
+            "2D/3D": "2D",
+            "Inteira/meia": "Meia",
+            "Valor": "R$ 12,50"
+        },
+
+        {
+            "id" : 7,
+            "Dia" : "Seg-Qui",
+            "Horário" : "Após 17h",
+            "2D/3D": "3D",
+            "Inteira/meia": "Inteira",
+            "Valor": "R$ 35,00"
+        },
+
+        {
+            "id" : 8,
+            "Dia" : "Seg-Qui",
+            "Horário" : "Após 17h",
+            "2D/3D": "3D",
+            "Inteira/meia": "Meia",
+            "Valor": "R$ 17,50"
+        },
+
+        {
+            "id" : 9,
+            "Dia" : "Sex-Dom",
+            "Horário" : "Até 17h",
+            "2D/3D": "2D",
+            "Inteira/meia": "Inteira",
+            "Valor": "R$ 30,00"
+        },
+
+        {
+            "id" : 10,
+            "Dia" : "Sex-Dom",
+            "Horário" : "Até 17h",
+            "2D/3D": "2D",
+            "Inteira/meia": "Meia",
+            "Valor": "R$ 15,00"
+        },
+
+        {
+            "id" : 11,
+            "Dia" : "Sex-Dom",
+            "Horário" : "Até 17h",
+            "2D/3D": "3D",
+            "Inteira/meia": "Inteira",
+            "Valor": "R$ 40,00"
+        },
+
+        {
+            "id" : 12,
+            "Dia" : "Sex-Dom",
+            "Horário" : "Até 17h",
+            "2D/3D": "3D",
+            "Inteira/meia": "Meia",
+            "Valor": "R$ 20,00"
+        },
+
+        {
+            "id" : 13,
+            "Dia" : "Sex-Dom",
+            "Horário" : "Após 17h",
+            "2D/3D": "2D",
+            "Inteira/meia": "Inteira",
+            "Valor": "R$ 35,00"
+        },
+
+        {
+            "id" : 14,
+            "Dia" : "Sex-Dom",
+            "Horário" : "Após 17h",
+            "2D/3D": "2D",
+            "Inteira/meia": "Meia",
+            "Valor":"R$ 17,50"
+        },
+
+        {
+            "id" : 15,
+            "Dia" : "Sex-Dom",
+            "Horário" : "Após 17h",
+            "2D/3D": "3D",
+            "Inteira/meia": "Inteira",
+            "Valor": "R$ 45,00"
+        },
+
+        {
+            "id" : 16,
+            "Dia" : "Sex-Dom",
+            "Horário" : "Após 17h",
+            "2D/3D": "3D",
+            "Inteira/meia": "Meia",
+            "Valor": "R$ 22,50"
+        }
+    ],
+
+    "Salas": [
+        {
+            "id": 1,
+            "Capacidade": "300"
+        },
+
+        {
+            "id": 2,
+            "Capacidade": "250"
+        },
+
+        {
+            "id": 3,
+            "Capacidade": "300"
+        },
+
+        {
+            "id": 4,
+            "Capacidade": "300"
+        },
+
+        {
+            "id": 5,
+            "Capacidade": "250"
+        },
+
+        {
+            "id": 6,
+            "Capacidade": "250"
+        }
+    ],
+
+    "Combos": [
+        {
+            "Pipoca": [
+                {
+                    "id": 1,
+                    "Tamanho": "P",
+                    "Valor": "12,50"
+                },
+
+                {
+                    "id": 2,
+                    "Tamanho": "M",
+                    "Valor":"R$ 15,00"
+                },
+
+                {
+                    "id": 3,
+                    "Tamanho": "G",
+                    "Valor": "R$ 17,50"
+                }
+            ],
+
+            "Bebida": [
+                {
+                    "id": 1,
+                    "Sabor": "Cola",
+                    "Tipo": "Normal",
+                    "Tamanho": "P",
+                    "Valor":"R$ 12,50"
+                },
+
+                {
+                    "id": 2,
+                    "Sabor": "Cola",
+                    "Tipo": "Zero",
+                    "Tamanho": "P",
+                    "Valor":"R$ 12,50"
+                },
+
+                {
+                    "id": 3,
+                    "Sabor": "Cola",
+                    "Tipo": "Normal",
+                    "Tamanho": "M",
+                    "Valor":"R$ 15,00"
+                },
+
+                {
+                    "id": 4,
+                    "Sabor": "Cola",
+                    "Tipo": "Zero",
+                    "Tamanho": "M",
+                    "Valor":"R$ 15,00"
+                },
+
+                {
+                    "id": 5,
+                    "Sabor": "Cola",
+                    "Tipo": "Normal",
+                    "Tamanho": "G",
+                    "Valor": "R$ 17,50"
+                },
+
+                {
+                    "id": 6,
+                    "Sabor": "Cola",
+                    "Tipo": "Zero",
+                    "Tamanho": "G",
+                    "Valor": "R$ 17,50"
+                },
+
+                {
+                    "id": 7,
+                    "Sabor": "Guaraná",
+                    "Tipo": "Normal",
+                    "Tamanho": "P",
+                    "Valor":"R$ 12,50"
+                },
+
+                {
+                    "id": 8,
+                    "Sabor": "Guaraná",
+                    "Tipo": "Zero",
+                    "Tamanho": "P",
+                    "Valor":"R$ 12,50"
+                },
+
+                {
+                    "id": 9,
+                    "Sabor": "Guaraná",
+                    "Tipo": "Normal",
+                    "Tamanho": "M",
+                    "Valor":"R$ 15,00"
+                },
+
+                {
+                    "id": 10,
+                    "Sabor": "Guaraná",
+                    "Tipo": "Zero",
+                    "Tamanho": "M",
+                    "Valor":"R$ 15,00"
+                },
+
+                {
+                    "id": 11,
+                    "Sabor": "Guaraná",
+                    "Tipo": "Normal",
+                    "Tamanho": "G",
+                    "Valor": "R$ 17,50"
+                },
+
+                {
+                    "id": 12,
+                    "Sabor": "Guaraná",
+                    "Tipo": "Zero",
+                    "Tamanho": "G",
+                    "Valor": "R$ 17,50"
+                }
+            ],
+
+            "Outros": [
+                {
+                    "id": 1,
+                    "Item": "Água",
+                    "Gás": "Sem gás",
+                    "Valor": "R$ 6,00"
+                },
+
+                {
+                    "id": 2,
+                    "Item": "Água",
+                    "Gás": "Com gás",
+                    "Valor": "R$ 6,00"
+                },
+
+                {
+                    "id": 3,
+                    "Item": "M&M's",
+                    "Valor": "R$ 4,00"
+                },
+
+                {
+                    "id": 4,
+                    "Item": "Snickers",
+                    "Valor": "R$ 4,00"
+                },
+
+                {
+                    "id": 5,
+                    "Item": "Amendoim",
+                    "Valor": "R$ 2,50"
+                },
+
+                {
+                    "id": 6,
+                    "Item": "Balde Filme",
+                    "Valor": "R$ 35,00"
+                }
+            ]
         }
     ]
 }

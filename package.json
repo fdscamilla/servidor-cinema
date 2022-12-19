@@ -3,5 +3,10 @@
     "json-server": "^0.17.1"
   },
 
-  "type": "module"
+  "type": "module",
+  "license": "ISC",
+  
+  "scripts": {
+    "build": "webpack"
+  }
 }
